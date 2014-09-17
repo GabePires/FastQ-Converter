@@ -11,7 +11,7 @@ Jeffrey Nguyen (Jehunguy)
 
 Abstract
 
-	Within the FASTQ file, there are five different formats for quantifying quality scores. These formats are Sanger, Solexa, Illumina 1.3+, Illumina 1.5+, and Ilummina 1.8+. Each uses its own character mapping to represent quality scores. FASTQ allows one to see the quality and accuracy of a sequence with ASCII characters in a range of quality scores. They each have their own ranges. For example, Sanger ranges from 0:40 and Solexa ranges from -5:40. The ability to quantify and record the quality of each nucleotide of a sequence is both valuable and significant. Because not only one method is used universally and formats change over time, it is valuable to have programs to convert one quality score character format to another. With a program written in python, we can convert from one FASTQ format to another. 
+Within the FASTQ file, there are five different formats for quantifying quality scores. These formats are Sanger, Solexa, Illumina 1.3+, Illumina 1.5+, and Ilummina 1.8+. Each uses its own character mapping to represent quality scores. FASTQ allows one to see the quality and accuracy of a sequence with ASCII characters in a range of quality scores. They each have their own ranges. For example, Sanger ranges from 0:40 and Solexa ranges from -5:40. The ability to quantify and record the quality of each nucleotide of a sequence is both valuable and significant. Because not only one method is used universally and formats change over time, it is valuable to have programs to convert one quality score character format to another. With a program written in python, we can convert from one FASTQ format to another. 
 
 Introduction
 
